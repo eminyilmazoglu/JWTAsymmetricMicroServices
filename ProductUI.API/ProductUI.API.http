@@ -1,0 +1,4 @@
+@ProductUI.API_HostAddress = http://localhost:5257
+
+
+### ürünlerin kontrolü için yapýlmýþ ui ile çalýþacak servis parçacýðý örneðidir...

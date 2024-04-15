@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyGenerator", "KeyGenerator\KeyGenerator.csproj", "{4DEEC906-ABA3-4BAF-8C0B-205E8B2721CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationUI.API", "ApplicationUI.API\ApplicationUI.API.csproj", "{23D9198B-3292-4FE3-878F-F42DC73BE274}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer.Api", "AuthServer.Api\AuthServer.Api.csproj", "{63BF5AA0-CD73-4108-BB06-5741DFB3CC89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationServer.Api", "IntegrationServer.Api\IntegrationServer.Api.csproj", "{19C31E1A-4D8D-4284-9332-2A646AA69F1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductUI.API", "ProductUI.API\ProductUI.API.csproj", "{F16EE00D-0098-410B-800C-9776D50EEA1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE1FE39C-AF97-4CD5-A9D0-8B4B71A007B4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		thunder-collection.json = thunder-collection.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationLibrary", "PaginationLibrary\PaginationLibrary.csproj", "{F1E3E039-2F46-411E-BC85-B4D915E8EC6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DEEC906-ABA3-4BAF-8C0B-205E8B2721CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEEC906-ABA3-4BAF-8C0B-205E8B2721CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEEC906-ABA3-4BAF-8C0B-205E8B2721CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEEC906-ABA3-4BAF-8C0B-205E8B2721CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D9198B-3292-4FE3-878F-F42DC73BE274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D9198B-3292-4FE3-878F-F42DC73BE274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D9198B-3292-4FE3-878F-F42DC73BE274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D9198B-3292-4FE3-878F-F42DC73BE274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63BF5AA0-CD73-4108-BB06-5741DFB3CC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BF5AA0-CD73-4108-BB06-5741DFB3CC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BF5AA0-CD73-4108-BB06-5741DFB3CC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BF5AA0-CD73-4108-BB06-5741DFB3CC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C31E1A-4D8D-4284-9332-2A646AA69F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C31E1A-4D8D-4284-9332-2A646AA69F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C31E1A-4D8D-4284-9332-2A646AA69F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C31E1A-4D8D-4284-9332-2A646AA69F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F16EE00D-0098-410B-800C-9776D50EEA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16EE00D-0098-410B-800C-9776D50EEA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16EE00D-0098-410B-800C-9776D50EEA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16EE00D-0098-410B-800C-9776D50EEA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E3E039-2F46-411E-BC85-B4D915E8EC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E3E039-2F46-411E-BC85-B4D915E8EC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E3E039-2F46-411E-BC85-B4D915E8EC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E3E039-2F46-411E-BC85-B4D915E8EC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F91C4F3F-FC95-45CE-95AF-DE5215A1CCCD}
+	EndGlobalSection
+EndGlobal
